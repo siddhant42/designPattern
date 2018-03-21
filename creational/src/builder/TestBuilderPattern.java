@@ -7,5 +7,9 @@ public class TestBuilderPattern {
 		Computer comp = new Computer.ComputerBuilder(
 				"500 GB", "2 GB").setBluetoothEnabled(true)
 				.setGraphicsCardEnabled(true).build();
+		System.out.println(comp.getHDD());
+		Computer2 comp2 = new Computer2.ComputerBuilder("1 TB", "8 GB").
+				setBluetoothEnabled(true).setGraphicsCardEnabled(true).build();
+		System.out.println(comp2.getHDD());
 	}
 }

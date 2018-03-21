@@ -7,7 +7,7 @@ public class Computer {
 	//optional parameters
 	private boolean isGraphicsCardEnabled;
 	private boolean isBluetoothEnabled;
-/*	public String getHDD() {
+	public String getHDD() {
 		return HDD;
 	}
 	public String getRAM() {
@@ -18,7 +18,7 @@ public class Computer {
 	}
 	public boolean isBluetoothEnabled() {
 		return isBluetoothEnabled;
-	}*/
+	}
 	private Computer(ComputerBuilder builder) {
 		this.HDD=builder.HDD;
 		this.RAM=builder.RAM;
